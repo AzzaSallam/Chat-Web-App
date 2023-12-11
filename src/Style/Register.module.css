@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+}
+
+.form{
+    width: 42%;
+    position: relative;
+    /* background-color: #ffcfe8da; */
+    background-image: linear-gradient(to right,#b7a4d4d7 , #ffcfe8da);
+}
+
+.imgContainer{
+    width: 68%;
+    height: 100vh;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}

@@ -1,0 +1,66 @@
+/* NavBar SideBar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F0E5;
+    border-bottom: 2px solid white;
+}
+
+
+.userInfon{
+    margin: 0.7rem ;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: bold;
+    color: #3162f2;
+}
+
+.icon{
+    margin: 0.7rem;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #b1075b;
+    cursor: pointer;
+}
+
+/* NavBar Chat */
+
+.navbarChat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #241468;
+    box-shadow: 2px 2px 2px #ccc;
+    z-index: 10;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconChat{
+    margin: 0.7rem;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.nameChat{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}

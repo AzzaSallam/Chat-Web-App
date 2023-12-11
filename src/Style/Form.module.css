@@ -1,0 +1,87 @@
+.form{
+    position: absolute;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+.label{
+    color: #3f79f2;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.inputDiv{
+    margin:0.6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputLabel{
+    color: #654062;
+    font-size:large;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+.input{
+    padding: 0.5rem;
+    outline-color: #3f78f294;
+    border: 1px solid #3f79f2;
+    border-radius: 5px;
+    font-size:medium;
+}
+
+input[type=file]::file-selector-button{
+    visibility: hidden;
+    color: transparent;
+    display: none;
+}
+
+
+.icon{
+    position: absolute;
+    right: 0.7rem;
+    top: 2.4rem;
+    color: gray;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.input:focus::-webkit-input-placeholder{
+    opacity: 0;
+    transition: .5s ;
+}
+
+.btn{
+    margin:0.6rem 2rem;
+    width: 85%;
+    padding: 0.8rem 3rem;
+    background-color: #3f79f2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: -1px 3px 3px 1px #cccccc9c;
+}
+
+.text{
+    margin-left: 2rem;
+    font-size: medium;
+    font-weight: 500;
+    color: #1c2d52;
+    padding-bottom: 0.6rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #3f79f2;
+    font-weight: bold;
+}

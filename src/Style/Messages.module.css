@@ -1,0 +1,81 @@
+.container{
+    overflow-y: scroll;
+    height: 85vh;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.message{
+    z-index: 15;
+    margin: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 15px;
+    width: 95%;
+}
+
+.owner{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.messInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.time{
+    font-weight: bold;
+    color: #092635;
+}
+
+.messContentOwner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.messContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text{
+    background-color: white;
+    z-index: 11;
+    color: #4D3A4D;
+    padding: 0.4rem;
+    font-size: large;
+    border-radius: 0 7px 7px 7px;
+    max-width: fit-content;
+}
+
+
+.ownerTxt{
+    background-color: #4D3A4D;
+    color: white;
+    border-radius: 7px 0 7px 7px;
+}
+
+.imgSent{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.nontxt{
+    display: none;
+}

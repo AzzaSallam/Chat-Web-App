@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('../assets/bg.jpeg');
+    background-size: cover;
+}
+
+.mainChat{
+    width: 100%;
+}
+
+.mainChat::-webkit-scrollbar{
+    display: none;
+}
+
+

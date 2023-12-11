@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    height: 100;
+}
+
+.sidebar{
+    width: 42%;
+    height: 100%;
+    /* position: relative; */
+}
+
+.mainChat{
+    height: 100%;
+    width: 68%;
+}

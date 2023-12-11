@@ -1,0 +1,36 @@
+.container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 12;
+}
+
+.input{
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.8rem 0.7rem;
+    font-size: medium;
+    margin-bottom: 5px;
+    margin-left: 1rem;
+    position: relative;
+    outline-color: #ccc;
+    border-color: #ccc;
+}
+
+.icons{
+    position: absolute;
+    right: 2rem;
+    display: flex;
+    gap: 15px;
+}
+
+.icon{
+    color: #b1075b;
+    cursor: pointer;
+    font-size: large;
+}
+

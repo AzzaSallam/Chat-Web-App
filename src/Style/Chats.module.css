@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 70vh;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.chat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.3rem;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border-bottom: 2px solid #ecbcdf;
+}
+
+.chat:last-child{
+    border-bottom: none;
+}
+
+.chat:active , 
+.chat:focus,
+.chat:hover{
+    background-color: #c8bcd9b0;
+    transition: .5s
+}
+
+.img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.name{
+    color: #3162f2;
+    font-weight: 600;
+}
+
+.text{
+    color: #b1075b;
+    font-weight: 500;
+}

@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid white;
+}
+
+.icon{
+    font-size: larger;
+    cursor: pointer;
+    padding: 0.8rem;
+    width: calc((100% / 3) - 4rem);
+}
+.active{
+    border-bottom: 3px solid gray;
+}
