@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import classes from '../Style/NavBarSide.module.css';
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { ChatContext } from '../Context/ChatContext';

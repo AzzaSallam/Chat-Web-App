@@ -5,7 +5,7 @@ import {ChatContext} from '../Context/ChatContext';
 import { doc, onSnapshot } from 'firebase/firestore';
 import { db } from '../firebase';
 
-const Chats = () => {
+const Chats = ({title}) => {
 
   const [chats , setChats] = useState([]);
 
