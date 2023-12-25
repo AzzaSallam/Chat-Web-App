@@ -1,36 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from '../Style/Header.module.css';
-import { IoMdHome } from "react-icons/io";
+// import { IoMdHome } from "react-icons/io";
 import { BsChatLeftTextFill } from "react-icons/bs";
-import { HiUsers } from "react-icons/hi2";
+// import { HiUsers } from "react-icons/hi2";
 
 
 const Header = (title) => {
-
-  const [menu , setMenu] = useState(1);
-
-  const tabs=[{
-    id :1,
-    icon : <IoMdHome/>
-  } , {
-    id : 2,
-    icon : <BsChatLeftTextFill/>
-  } , {
-    id : 3 ,
-    icon : <HiUsers/>
-  }]
-
-
+  
   return ( 
     <div className={classes.header}>
-      {tabs.map((tab)=>(
-        <div key={tab.id}
-            onClick={()=>setMenu(tab.id)}
-            className={`${classes.icon} ${tab.id===menu && classes.active}`}
-        > 
-          {tab.icon}
-        </div>
-      ))}
+        <BsChatLeftTextFill 
+              className={classes.icon}
+        />
     </div>
   )
 }
@@ -38,21 +19,26 @@ const Header = (title) => {
 export default Header;
 
 
+  // const [menu , setMenu] = useState(1);
 
-{/* <div className={classes.header}>
-  <IoMdHome id={1}
-            onClick={()=>setMenu(1)} 
-            
-            className={`${classes.icon} ${menu===1 && classes.active}`}
-  />
-  <BsChatLeftTextFill id={2}
-                      onClick={()=>setMenu(2)} 
-                      
-                      className={`${classes.icon} ${menu===2 && classes.active}`}
-  />
-  <HiUsers id={3}
-          onClick={()=>setMenu(3)} 
-          
-          className={`${classes.icon} ${menu===3 && classes.active}`} 
-  />
-</div> */}
+  // const tabs=[{
+  //   id :1,
+  //   icon : <IoMdHome/>
+  // } , {
+  //   id : 2,
+  //   icon : <BsChatLeftTextFill/>
+  // } , {
+  //   id : 3 ,
+  //   icon : <HiUsers/>
+  // }]
+//<div className={classes.header}>
+//</div>      {tabs.map((tab)=>(
+//</div>        {/* // <div key={tab.id} */}
+//</div>            onClick={()=>setMenu(tab.id)}
+//</div>            className={`${classes.icon} ${tab.id===menu && classes.active}`}
+//</div>        > 
+//</div>          // {/* {tab.icon} */}
+//</div>        // {/* </div> */}
+//</div>      ))}
+//</div>    // {/* </div> */}
+
